@@ -4,8 +4,7 @@
 import { useSession } from "next-auth/react";
 import { Suspense, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-
-import Profile from "@components/Profile";
+import Profile from "@Components/Profile";
 import Loading from "./loading";
 
 const MyProfile = () => {
